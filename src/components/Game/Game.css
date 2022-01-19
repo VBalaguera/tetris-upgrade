@@ -1,0 +1,110 @@
+/*tetris game style here: */
+
+.game {
+  display: flex;
+  flex-direction: column;
+}
+
+.game h1 {
+  margin: 10px;
+  font-size: calc(1vmin + 2vmax);
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 0 0;
+}
+
+.game_start {
+  height: 7rem;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-score-difficulty {
+  height: 3rem;
+}
+
+.game_start button {
+  height: 1.5rem;
+  width: 7rem;
+  margin: 5px 10px;
+  color: red;
+}
+
+.mobile-controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.mobile-controls button {
+  height: 3rem;
+  width: 10rem;
+  color: red;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  margin: 5px 5px;
+}
+
+.mobile-controls-up-right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.container h1 {
+  text-align: right;
+  width: 100%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: calc(0.05vmin + 0.25vmax);
+  margin-bottom: 5%;
+}
+
+.grid {
+  width: 240px;
+  height: 480px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--bg-main);
+  background-color: black;
+  margin: 0 10px;
+}
+
+.grid div {
+  height: 24px;
+  width: 24px;
+  /*     background-color: red;  */
+}
+
+.tetromino {
+  background-color: blue; /*TEMPORARY*/
+}
+
+.mini-grid {
+  margin-top: 10px;
+  width: 96px;
+  height: 96px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white; /*temporary*/
+}
+
+.mini-grid div {
+  height: 24px;
+  width: 24px;
+}
