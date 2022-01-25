@@ -4,7 +4,7 @@ import "./Game.css";
 export default function Game() {
   return (
     <div>
-      <section className="game">
+      <section className="game" id="game">
         <h1>Now, play</h1>
         <div className="section9-score-difficulty">
           <h3>
@@ -13,11 +13,11 @@ export default function Game() {
         </div>
 
         <div className="game_start">
-          <button id="start-button">Easiest difficulty</button>
-          <button id="normal">Normal difficulty</button>
-          <button id="hard">Hard difficulty</button>
-          <button id="hardest">Hardest difficulty</button>
-          <button id="extreme">Extreme difficulty</button>
+          <button id="start-button">Easy</button>
+          <button id="normal">Normal</button>
+          <button id="hard">Hard</button>
+          <button id="hardest">Hardest</button>
+          <button id="extreme">Extreme</button>
           <button id="restart">
             Restart<span className="controls_help">: R</span>
           </button>

@@ -86,6 +86,8 @@ document.addEventListener("DOMContentLoaded", () => {
   let currentPosition = 4;
   let currentRotation = 0;
 
+  console.log(theTetrominoes[0][0]);
+
   //randomly select a Tetromino and its first rotation
   let random = Math.floor(Math.random() * theTetrominoes.length);
   let current = theTetrominoes[random][currentRotation];
@@ -122,7 +124,7 @@ document.addEventListener("DOMContentLoaded", () => {
       moveDown();
     } else if (e.keyCode === 82) {
       //R assigned to RESTART!
-      location.reload();
+      this.location.reload();
     }
   }
   document.addEventListener("keyup", control);
@@ -408,6 +410,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //restarting/reloading
   restartBtn.addEventListener("click", function () {
-    location.reload();
+    this.location.reload();
   });
 });

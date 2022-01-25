@@ -1,7 +1,7 @@
 import React from "react";
 import "./Sections.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination, Mousewheel, Keyboard } from "swiper";
+import { Pagination, Keyboard } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
 import Game from "../Game/Game";
@@ -42,11 +42,10 @@ export default function Sections({ contents }) {
   return (
     <>
       <Swiper
-        modules={[Pagination, Mousewheel, Keyboard]}
+        modules={[Pagination, Keyboard]}
         pagination
         spaceBetween={50}
         slidesPerView={1}
-        mousewheel={true}
         keyboard={true}
         onSlideChange={() => console.log("slide change")}
         onSwiper={(swiper) => console.log(swiper)}

@@ -20,6 +20,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  border-right: 1px solid #00ff66;
+}
+
+.section-right {
+  border-left: 1px solid #00ff66;
 }
 
 .section-left__caption {
