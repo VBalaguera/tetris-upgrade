@@ -45,6 +45,17 @@
   padding: 2rem;
 }
 
+.section-right__top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-right__top__tetromino {
+  width: 10rem;
+}
+
 .section-right__bottom__text {
   text-align: justify;
 }

@@ -3,6 +3,17 @@
 
 This project was jumpstarted with this [original tutorial](https://www.youtube.com/watch?v=rAUn1Lom6dw&ab_channel=freeCodeCamp.org).
 
+tetrominoes:
+O: https://svgur.com/s/dhL 
+Z: https://svgur.com/s/dgi 
+T: https://svgur.com/i/dha.svg
+S: https://svgur.com/s/di8 
+
+L v1: https://svgur.com/s/di9
+
+J: https://svgur.com/s/dgo
+I: https://svgur.com/s/dhb 
+
 Sources: 
 
 
@@ -27,3 +38,4 @@ Sources:
                     </li>
                     <li>
                         <a href="https://www.retrogames.cz/play_1030-NES.php" target="#">Retrogames.cz</a>
+

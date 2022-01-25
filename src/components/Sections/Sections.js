@@ -24,7 +24,7 @@ export default function Sections({ contents }) {
             <div className="section-right__top">
               <h1 className="section-right__top__title">{content.title}</h1>
               <div className="section-right__top__tetromino">
-                tetromino here
+                <img src={content.tetromino} alt="tetromino" />
               </div>
             </div>
             <div className="section-right__bottom">
