@@ -1,0 +1,45 @@
+.section {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.section-left,
+.section-right {
+  width: 50%;
+  height: 100%;
+  background-color: black;
+  color: #00ff66;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.section-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-left__caption {
+  position: absolute;
+  top: 95%;
+  color: white;
+  padding: 1rem;
+  background-color: red;
+}
+.section-left__img {
+  height: 90%;
+  width: 90%;
+  object-fit: contain;
+}
+
+.section-right__top,
+.section-right__bottom {
+  padding: 2rem;
+}
+
+.section-right__bottom__text {
+  text-align: justify;
+}
