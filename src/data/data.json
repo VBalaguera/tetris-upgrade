@@ -1,7 +1,7 @@
 [
   {
     "title": "Тетрис",
-    "subtitle": "subtitle",
+    "subtitle": "",
     "text": "20th century's definitive puzzle game from the Soviet Union",
     "img": "https://i.ibb.co/qkhjsnx/tetris-first-build.png",
     "imgcaption": "1984's Elektronika 60 first build of Tetris",
@@ -10,7 +10,7 @@
   {
     "title": "The Creator",
     "subtitle": "Alexey Leonidovich Pajitnov",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit.\nNemo esse ad corrupti dolorem reprehenderit tempora quis impedit possimus similique eius delectus, pariatur quibusdam animi accusamus a! Temporibus optio repellat cumque eum harum similique earum assumenda repellendus itaque fuga eos perspiciatis quam natus, quidem dolor? Minus tenetur odit inventore laborum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, accusantium. Sunt eum, dolorum labore architecto dicta eos, aperiam reprehenderit quam consequatur hic mollitia esse nam libero deleniti accusantium! Ad deserunt quas error similique neque minima impedit vitae eius qui nulla molestias velit modi ratione reprehenderit maiores sint, iste maxime facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, dolorem?",
+    "text": "Born in Mosco in 1955, Pajitnov\n\nInsert here small bio + small data about the creation of Tetris",
     "img": "https://i.ibb.co/8zzBjPS/tetris-creator.jpg",
     "imgcaption": "Pajitnov visiting Bilbao, (Spain)",
     "tetromino": "https://svgur.com/i/dgi.svg"
@@ -18,7 +18,7 @@
   {
     "title": "Journey to the West",
     "subtitle": "How this game reached us.",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse ad corrupti dolorem reprehenderit tempora quis impedit possimus similique eius delectus, pariatur quibusdam animi accusamus a! Temporibus optio repellat cumque eum harum similique earum assumenda repellendus itaque fuga eos perspiciatis quam natus, quidem dolor? Minus tenetur odit inventore laborum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. \n Dicta, accusantium. Sunt eum, dolorum labore architecto dicta eos, aperiam reprehenderit quam consequatur hic mollitia esse nam libero deleniti accusantium! Ad deserunt quas error similique neque minima impedit vitae eius qui nulla molestias velit modi ratione reprehenderit maiores sint, iste maxime facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, dolorem?",
+    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. \n\nNemo esse ad corrupti dolorem reprehenderit tempora quis impedit possimus similique eius delectus, pariatur quibusdam animi accusamus a! Temporibus optio repellat cumque eum harum similique earum assumenda repellendus itaque fuga eos perspiciatis quam natus, quidem dolor? Minus tenetur odit inventore laborum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. \n Dicta, accusantium. Sunt eum, dolorum labore architecto dicta eos, aperiam reprehenderit quam consequatur hic mollitia esse nam libero deleniti accusantium! Ad deserunt quas error similique neque minima impedit vitae eius qui nulla molestias velit modi ratione reprehenderit maiores sint, iste maxime facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, dolorem?",
     "img": "https://i.ibb.co/mFJ88pN/tetris-arcade.jpg",
     "imgcaption": "Atari Games' 1988 arcade cabinet version",
     "tetromino": "https://svgur.com/i/dha.svg"
@@ -26,15 +26,15 @@
   {
     "title": "Тетрис",
     "subtitle": "subtitle",
-    "text": "20th century's definitive puzzle game from the Soviet Union",
+    "text": "1989 would represent the year Tetris reached millions of households around the world.\n\nDuring this year Nintendo published versions for its NES and Gameboy consoles, which became a huge commercial success: both versions combined sold more than 43 million units worldwide.",
     "img": "https://i.ibb.co/ZmCNFmc/tetris-nes-cover.jpg",
-    "imgcaption": "1984's Elektronika 60 first build of Tetris",
+    "imgcaption": "1989's Nintendo version for the NES",
     "tetromino": "https://svgur.com/i/di8.svg"
   },
   {
-    "title": "Тетрис",
+    "title": "miscellaneous information",
     "subtitle": "subtitle",
-    "text": "20th century's definitive puzzle game from the Soviet Union",
+    "text": "about tetris effect and other information\n\noccurs when people devote so much time and attention to an activity that it begins to pattern their thoughts, mental images, and dreams.",
     "img": "https://i.ibb.co/Csdf3bh/tetris-effect-study.png",
     "imgcaption": "Tetris Dreams, by Kristin Leutwyler",
     "tetromino": "https://svgur.com/i/di9.svg"
@@ -42,17 +42,9 @@
   {
     "title": "Still here.",
     "subtitle": "subtitle",
-    "text": "20th century's definitive puzzle game from the Soviet Union",
+    "text": "The game is available on over 65 platforms, setting a Guinness world record for the most ported video game title.",
     "img": "https://i.ibb.co/fxGBBj6/tetris-effect.jpg",
     "imgcaption": "2018's Tetris Effect. Produced by Tetsuya Mizuguchi. Developed by Monstars and Resonair. Published by Enhance Games.",
     "tetromino": "https://svgur.com/i/dgo.svg"
-  },
-  {
-    "title": "Sources and resources",
-    "subtitle": "subtitle",
-    "text": "20th century's definitive puzzle game from the Soviet Union",
-    "img": "https://i.ibb.co/h2B8rj2/tetris-final-image.webp",
-    "imgcaption": "1984's Elektronika 60 first build of Tetris",
-    "tetromino": "https://svgur.com/i/dhb.svg"
   }
 ]

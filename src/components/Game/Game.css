@@ -14,6 +14,11 @@
   font-size: calc(1vmin + 2vmax);
 }
 
+.score {
+  background-color: #00ff66;
+  color: black;
+}
+
 .container {
   display: flex;
   flex-direction: row;
@@ -107,7 +112,6 @@
 .grid div {
   height: 24px;
   width: 24px;
-  /*     background-color: red;  */
 }
 
 .tetromino {

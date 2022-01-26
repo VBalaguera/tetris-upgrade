@@ -8,11 +8,15 @@ export default function Game() {
         <div className="section9-score-difficulty">
           <h1>Now, play</h1>
           <h3>
-            Score:<span id="score">0</span>. Note, this is an unfinished build
+            Score:
+            <span className="score" id="score">
+              0
+            </span>
+            .
           </h3>
           <h5>
-            Basic controls are linked to specific keystroks on desktop. Touch
-            controls are also available on mobile.
+            This is an unfinished build. Basic controls are linked to specific
+            keystroks on desktop. Touch controls are also available on mobile.
           </h5>
         </div>
 

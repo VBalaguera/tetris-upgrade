@@ -31,7 +31,7 @@
   position: absolute;
   top: 0.5%;
   color: white;
-  padding: 0.5rem;
+  padding: 1rem;
   color: #00ff66;
 }
 .section-left__img {
@@ -42,7 +42,7 @@
 
 .section-right__top,
 .section-right__bottom {
-  padding: 2rem;
+  padding: 2rem 2rem 3rem 2rem;
 }
 
 .section-right__top {
@@ -63,6 +63,7 @@
 
 .section-right__bottom__text {
   text-align: justify;
+  line-height: 1.4rem;
 }
 
 /*responsive*/
