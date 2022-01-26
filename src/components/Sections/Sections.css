@@ -76,9 +76,11 @@
     width: 100%;
   }
 
-  .section-left,
+  .section-left {
+    height: 40%;
+  }
   .section-right {
-    height: 50%;
+    height: 60%;
   }
 
   .section-left {
@@ -87,14 +89,14 @@
   }
 
   .section-left__caption {
-    top: 45%;
+    top: 36%;
     font-size: 0.5rem;
     width: 100%;
     padding: 0.2rem;
   }
 
   .section-left__img {
-    height: 20rem;
+    height: 18rem;
   }
 
   .section-right {
@@ -103,18 +105,18 @@
   }
 
   .section-right__top {
-    padding: 1rem 2rem 0rem 1rem;
+    padding: 1rem 2rem 0rem 2rem;
   }
   .section-right__bottom {
     padding: 0rem 2rem 4rem 2rem;
   }
 
   .section-right__top {
-    height: 20%;
+    height: 15%;
   }
 
   .section-right__bottom {
-    height: 80%;
+    height: 85%;
 
     display: flex;
     flex-direction: column;

@@ -35,3 +35,9 @@ span.swiper-pagination-bullet {
   background-color: red;
   opacity: 1;
 }
+
+@media screen and (max-width: 768px) {
+  .swiper-pagination {
+    top: 93%;
+  }
+}
