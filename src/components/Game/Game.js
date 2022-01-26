@@ -5,8 +5,8 @@ export default function Game() {
   return (
     <div>
       <section className="game" id="game">
-        <h1>Now, play</h1>
         <div className="section9-score-difficulty">
+          <h1>Now, play</h1>
           <h3>
             Score:<span id="score">0</span>. Note, this is an unfinished build
           </h3>

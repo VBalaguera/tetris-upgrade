@@ -40,19 +40,6 @@ document.addEventListener("DOMContentLoaded", () => {
   ];
 
   //The Tetrominoes
-  const lTetromino = [
-    [1, width + 1, width * 2 + 1, 2],
-    [width, width + 1, width + 2, width * 2 + 2],
-    [1, width + 1, width * 2 + 1, width * 2],
-    [width, width * 2, width * 2 + 1, width * 2 + 2],
-  ];
-
-  const zTetromino = [
-    [0, width, width + 1, width * 2 + 1],
-    [width + 1, width + 2, width * 2, width * 2 + 1],
-    [0, width, width + 1, width * 2 + 1],
-    [width + 1, width + 2, width * 2, width * 2 + 1],
-  ];
 
   const tTetromino = [
     [1, width, width + 1, width + 2],
@@ -75,16 +62,50 @@ document.addEventListener("DOMContentLoaded", () => {
     [width, width + 1, width + 2, width + 3],
   ];
 
+  const lTetromino = [
+    [1, width + 1, width * 2 + 1, 2],
+    [width, width + 1, width + 2, width * 2 + 2],
+    [1, width + 1, width * 2 + 1, width * 2],
+    [width, width * 2, width * 2 + 1, width * 2 + 2],
+  ];
+
+  // DONE, may not work at all, needs revision; TODO: revisit this
+  const jTetromino = [
+    [1, width + 2, width * 2 + 2, 2], // done
+    [width, width + 1, width + 2, 2], // done
+    [1, width + 1, width * 2 + 1, width * 2 + 2], // done
+    [1, width + 1, 2, 3], // done,
+  ];
+
+  const zTetromino = [
+    [0, width, width + 1, width * 2 + 1],
+    [width + 1, width + 2, width * 2, width * 2 + 1],
+    [0, width, width + 1, width * 2 + 1],
+    [width + 1, width + 2, width * 2, width * 2 + 1],
+  ];
+
+  // TODO: create the S one
+  const sTetromino = [
+    [1, width, width + 1, width * 2],
+    [width * 2 + 1, width + 1, width * 2, width + 2],
+    [1, width, width + 1, width * 2],
+    [width * 2 + 1, width + 1, width * 2, width + 2],
+  ];
+
   const theTetrominoes = [
     lTetromino,
-    zTetromino,
+    jTetromino,
     tTetromino,
     oTetromino,
     iTetromino,
+    sTetromino,
+    zTetromino,
   ];
 
   let currentPosition = 4;
   let currentRotation = 0;
+
+  console.log(theTetrominoes[0][0]);
 
   //randomly select a Tetromino and its first rotation
   let random = Math.floor(Math.random() * theTetrominoes.length);
@@ -122,7 +143,7 @@ document.addEventListener("DOMContentLoaded", () => {
       moveDown();
     } else if (e.keyCode === 82) {
       //R assigned to RESTART!
-      location.reload();
+      this.location.reload();
     }
   }
   document.addEventListener("keyup", control);
@@ -273,13 +294,19 @@ document.addEventListener("DOMContentLoaded", () => {
   const displayWidth = 4;
   const displayIndex = 0;
 
-  //the Tetrominos without rotations
+  //tetrominoes inside the minigrid that displays them before entering the grid;
+  // the idea is to reuse the first "frame"
   const upNextTetrominoes = [
     [1, displayWidth + 1, displayWidth * 2 + 1, 2], //lTetromino
+
     [0, displayWidth, displayWidth + 1, displayWidth * 2 + 1], //zTetromino
     [1, displayWidth, displayWidth + 1, displayWidth + 2], //tTetromino
     [0, 1, displayWidth, displayWidth + 1], //oTetromino
     [1, displayWidth + 1, displayWidth * 2 + 1, displayWidth * 3 + 1], //iTetromino
+
+    [1, displayWidth + 2, displayWidth * 2 + 2, 2], // jtetromino
+
+    [1, displayWidth, displayWidth + 1, displayWidth * 2], // stetromino
   ];
 
   //display the shape in the mini-grid display
@@ -408,6 +435,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //restarting/reloading
   restartBtn.addEventListener("click", function () {
-    location.reload();
+    this.location.reload();
   });
 });

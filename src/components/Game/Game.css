@@ -5,6 +5,8 @@
   flex-direction: column;
   width: 100vw;
   height: 100vh;
+  background-color: black;
+  color: #00ff66;
 }
 
 .game h1 {
@@ -45,18 +47,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  align-content: center;
   justify-content: center;
-  padding: 0;
+  padding: 1rem;
 }
 
 .mobile-controls button {
   height: 3rem;
-  width: 10rem;
+  width: 5rem;
   color: red;
   font-family: "Raleway", sans-serif;
   font-weight: 500;
   margin: 5px 5px;
+  font-size: 0.8rem;
 }
 
 .mobile-controls-up-right {
@@ -85,6 +87,7 @@
   background-color: var(--bg-main);
   background-color: black;
   margin: 0 10px;
+  border: 1px solid #00ff66;
 }
 
 .grid div {
@@ -103,10 +106,42 @@
   height: 96px;
   display: flex;
   flex-wrap: wrap;
-  background-color: white; /*temporary*/
+  background-color: black;
+  border: 1px solid #00ff66;
 }
 
 .mini-grid div {
   height: 24px;
   width: 24px;
+}
+
+/*responsive*/
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 0.6rem;
+  }
+
+  .game_start {
+    height: 3rem;
+  }
+
+  .game_start button {
+    height: 1.5rem;
+    width: 5rem;
+    margin: 2px 5px;
+    font-size: 0.8rem;
+  }
+
+  .mobile-controls button {
+    height: 2rem;
+    width: 5rem;
+    margin: 4px 10px;
+    font-size: 0.8rem;
+  }
+  .mobile-controls {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }

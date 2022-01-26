@@ -4,7 +4,6 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Keyboard } from "swiper";
 import "swiper/css";
 import "swiper/css/pagination";
-import Game from "../Game/Game";
 
 export default function Sections({ contents }) {
   const allSections = contents.map((content) => {
@@ -51,9 +50,6 @@ export default function Sections({ contents }) {
         onSwiper={(swiper) => console.log(swiper)}
       >
         {allSections}
-        <SwiperSlide>
-          <Game />
-        </SwiperSlide>
       </Swiper>
     </>
   );

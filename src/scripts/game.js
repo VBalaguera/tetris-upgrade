@@ -30,17 +30,17 @@ document.addEventListener("DOMContentLoaded", () => {
   let timerId;
   let score = 0;
   const colors = [
-    "rgb(238, 170, 31)", //EEAA1F
-    "rgb(16, 154, 72)", //109A48
-    "rgb(153, 27, 30)", //991B1E
-    "rgb(100, 34, 101)", //642265
-    "rgb(0, 90, 157)", //005A9D
+    "rgb(238, 170, 31)", //EEAA1F L tetromino
+    "rgb(16, 154, 72)", //109A48 S tetromino
+    "rgb(153, 27, 30)", //991B1E T
+    "rgb(100, 34, 101)", //642265 O
+    "rgb(0, 90, 157)", //005A9D I
     "rgb(38, 59, 130)", //263B82
     "rgb(179, 90, 39)", //B35A27
   ];
 
   //The Tetrominoes
-  const lTetromino = [
+  /* const lTetromino = [
     [1, width + 1, width * 2 + 1, 2],
     [width, width + 1, width + 2, width * 2 + 2],
     [1, width + 1, width * 2 + 1, width * 2],
@@ -73,14 +73,32 @@ document.addEventListener("DOMContentLoaded", () => {
     [width, width + 1, width + 2, width + 3],
     [1, width + 1, width * 2 + 1, width * 3 + 1],
     [width, width + 1, width + 2, width + 3],
+  ]; */
+
+  // TODO: create the J one
+  const jTetromino = [
+    [1, width + 1, width * 2 + 1, 1],
+    [width, width + 1, width + 2, width * 2 + 2],
+    [1, width + 1, width * 2 + 1, width * 2],
+    [width, width * 2, width * 2 + 1, width * 2 + 2],
+  ];
+
+  // TODO: create the S one
+  const sTetromino = [
+    [1, width, width + 1, width * 2 + 1],
+    [width + 1, width + 2, width * 2, width * 2 + 1],
+    [1, width, width + 1, width * 2 + 1],
+    [width + 1, width + 2, width * 2, width * 2 + 1],
   ];
 
   const theTetrominoes = [
-    lTetromino,
+    /*     lTetromino,
     zTetromino,
     tTetromino,
     oTetromino,
-    iTetromino,
+    iTetromino, */
+    jTetromino,
+    sTetromino,
   ];
 
   let currentPosition = 4;
@@ -277,11 +295,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
   //the Tetrominos without rotations
   const upNextTetrominoes = [
-    [1, displayWidth + 1, displayWidth * 2 + 1, 2], //lTetromino
+    /*         [1, displayWidth + 1, displayWidth * 2 + 1, 2], //lTetromino
+
     [0, displayWidth, displayWidth + 1, displayWidth * 2 + 1], //zTetromino
     [1, displayWidth, displayWidth + 1, displayWidth + 2], //tTetromino
     [0, 1, displayWidth, displayWidth + 1], //oTetromino
-    [1, displayWidth + 1, displayWidth * 2 + 1, displayWidth * 3 + 1], //iTetromino
+    [1, displayWidth + 1, displayWidth * 2 + 1, displayWidth * 3 + 1], //iTetromino 
+
+    [2, displayWidth + 1, displayWidth * 2 + 1, 2], //jTetromino TODO: */
   ];
 
   //display the shape in the mini-grid display
