@@ -56,7 +56,7 @@ export default function Sections({ contents }) {
               <div
                 style={{
                   backgroundImage:
-                    "https://i.ibb.co/h2B8rj2/tetris-final-image.webp",
+                    "https://i.ibb.co/SrMbv04/perfect-tetris.gif",
                 }}
                 className="section-left__caption"
               >
@@ -65,7 +65,7 @@ export default function Sections({ contents }) {
               </div>
               <img
                 className="section-left__img"
-                src="https://i.ibb.co/h2B8rj2/tetris-final-image.webp"
+                src="https://i.ibb.co/SrMbv04/perfect-tetris.gif"
                 alt=""
               />
             </div>
@@ -149,17 +149,6 @@ export default function Sections({ contents }) {
                       target="#"
                     >
                       Scientific American
-                    </a>
-                    .
-                  </li>
-                  <li>
-                    Gif from "Tetris, how an architectural paradox became a
-                    worldwide success", via{" "}
-                    <a
-                      href="https://www.domusweb.it/en/news/gallery/2020/06/05/the-history-of-tetris-an-architectural-paradox-that-has-become-a-worldwide-success.html"
-                      target="#"
-                    >
-                      Domus
                     </a>
                     .
                   </li>

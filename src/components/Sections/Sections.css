@@ -31,7 +31,7 @@
   position: absolute;
   top: 0.5%;
   color: white;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #00ff66;
 }
 .section-left__img {
@@ -53,7 +53,7 @@
 }
 
 .section-right__top__tetromino {
-  width: 10rem;
+  width: 5rem;
 }
 
 .section-right__bottom__subtitle {
@@ -139,7 +139,7 @@
   }
 
   .section-right__bottom__text {
-    font-size: 0.6rem;
-    line-height: 0.9rem;
+    font-size: 0.8rem;
+    line-height: 1.1rem;
   }
 }

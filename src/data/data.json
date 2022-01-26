@@ -10,7 +10,7 @@
   {
     "title": "The Creator",
     "subtitle": "Alexey Leonidovich Pajitnov",
-    "text": "Born in Mosco in 1955, Pajitnov\n\nInsert here small bio + small data about the creation of Tetris",
+    "text": "Born in Moscow in 1955, Pajitnov.\n\n A long-time fan of puzzles and mathematics, his creation was conceived in the Soviet Academy of Sciences. First: a black and green version for the Elektronika 60. Then, Pajitnov requested an adaptation to the IBM PC. After being copied and distributed among the few people with computers in the URSS, it was licensed by Mirrorsoft.",
     "img": "https://i.ibb.co/8zzBjPS/tetris-creator.jpg",
     "imgcaption": "Pajitnov visiting Bilbao, (Spain)",
     "tetromino": "https://svgur.com/i/dgi.svg"
@@ -18,15 +18,15 @@
   {
     "title": "Journey to the West",
     "subtitle": "How this game reached us.",
-    "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. \n\nNemo esse ad corrupti dolorem reprehenderit tempora quis impedit possimus similique eius delectus, pariatur quibusdam animi accusamus a! Temporibus optio repellat cumque eum harum similique earum assumenda repellendus itaque fuga eos perspiciatis quam natus, quidem dolor? Minus tenetur odit inventore laborum numquam. Lorem ipsum dolor sit amet consectetur adipisicing elit. \n Dicta, accusantium. Sunt eum, dolorum labore architecto dicta eos, aperiam reprehenderit quam consequatur hic mollitia esse nam libero deleniti accusantium! Ad deserunt quas error similique neque minima impedit vitae eius qui nulla molestias velit modi ratione reprehenderit maiores sint, iste maxime facilis. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo, dolorem?",
+    "text": "More and more Western and Japanese developers started investing in adapting and distributing more versions of Tetris. Even during the era of Gorbachev's perestroika, commercializing Soviet products internationally was an endeavor as bureaucratic as any other imaginable ask in the USSR. Elorg, the former Soviet Union's central organism for import and exports of computer software, seized control of the property. From now on, it interveined in all business deals and retained a large part of all versions' revenue.",
     "img": "https://i.ibb.co/mFJ88pN/tetris-arcade.jpg",
     "imgcaption": "Atari Games' 1988 arcade cabinet version",
     "tetromino": "https://svgur.com/i/dha.svg"
   },
   {
-    "title": "Тетрис",
-    "subtitle": "subtitle",
-    "text": "1989 would represent the year Tetris reached millions of households around the world.\n\nDuring this year Nintendo published versions for its NES and Gameboy consoles, which became a huge commercial success: both versions combined sold more than 43 million units worldwide.",
+    "title": "Japan rises",
+    "subtitle": "How it reached your pocket, in more than one way",
+    "text": "After a hugely competetive set of negociations 1989 would represent the year Tetris reached millions of households around the world.\n\nDuring this year Nintendo published versions for its NES and Gameboy consoles, which became a huge commercial success: both versions combined sold more than 43 million units worldwide.",
     "img": "https://i.ibb.co/ZmCNFmc/tetris-nes-cover.jpg",
     "imgcaption": "1989's Nintendo version for the NES",
     "tetromino": "https://svgur.com/i/di8.svg"
