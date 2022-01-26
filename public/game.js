@@ -297,16 +297,13 @@ document.addEventListener("DOMContentLoaded", () => {
   //tetrominoes inside the minigrid that displays them before entering the grid;
   // the idea is to reuse the first "frame"
   const upNextTetrominoes = [
-    [1, displayWidth + 1, displayWidth * 2 + 1, 2], //lTetromino
-
-    [0, displayWidth, displayWidth + 1, displayWidth * 2 + 1], //zTetromino
+    [1, displayWidth + 1, displayWidth * 2 + 1, 2], //lTetromino, correct
+    [1, displayWidth + 2, displayWidth * 2 + 2, 2], // jtetromino
     [1, displayWidth, displayWidth + 1, displayWidth + 2], //tTetromino
     [0, 1, displayWidth, displayWidth + 1], //oTetromino
     [1, displayWidth + 1, displayWidth * 2 + 1, displayWidth * 3 + 1], //iTetromino
-
-    [1, displayWidth + 2, displayWidth * 2 + 2, 2], // jtetromino
-
     [1, displayWidth, displayWidth + 1, displayWidth * 2], // stetromino
+    [0, displayWidth, displayWidth + 1, displayWidth * 2 + 1], //zTetromino
   ];
 
   //display the shape in the mini-grid display

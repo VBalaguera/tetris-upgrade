@@ -135,6 +135,10 @@
     font-size: 0.6rem;
   }
 
+  h5 {
+    font-size: 0.5rem;
+  }
+
   .game_start {
     height: 3rem;
   }
@@ -146,12 +150,17 @@
     font-size: 0.8rem;
   }
 
+  .mobile-controls {
+    margin: 0;
+    padding: 0;
+  }
   .mobile-controls button {
     height: 2rem;
     width: 5rem;
     margin: 4px 10px;
     font-size: 0.8rem;
   }
+
   .mobile-controls {
     display: flex;
     flex-direction: column;

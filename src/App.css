@@ -1,8 +1,16 @@
+* {
+  background-color: black;
+}
+
 .App {
   text-align: center;
   white-space: pre-line;
 }
 
+/*swiper */
+.swiper-pagination {
+  opacity: 0.5;
+}
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
   background-color: #00ff66;
   opacity: 1;
