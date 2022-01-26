@@ -22,9 +22,7 @@ export default function Game() {
           <button id="hard">Hard</button>
           <button id="hardest">Hardest</button>
           <button id="extreme">Extreme</button>
-          <button id="restart">
-            Restart<span className="controls_help">: R</span>
-          </button>
+          <button id="restart">Restart: R</button>
         </div>
 
         <div className="container">
@@ -264,22 +262,14 @@ export default function Game() {
         <div className="controls">
           <div className="mobile-controls">
             <div className="mobile-controls-left-up">
-              <button id="mobile-rotation">
-                Rotate<span className="controls_help">: W</span>
-              </button>
+              <button id="mobile-rotation">Rotate: W</button>
             </div>
             <div className="mobile-controls-left-down">
-              <button id="mobile-left">
-                Left<span className="controls_help">: A</span>
-              </button>
-              <button id="mobile-right">
-                Right<span className="controls_help">: D</span>
-              </button>
+              <button id="mobile-left">Left: A</button>
+              <button id="mobile-right">Right: D</button>
             </div>
             <div className="mobile-controls-up-right">
-              <button id="mobile-down">
-                Down<span className="controls_help">: S</span>
-              </button>
+              <button id="mobile-down">Down: S</button>
             </div>
           </div>
         </div>

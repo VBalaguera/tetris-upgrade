@@ -46,8 +46,8 @@ export default function Sections({ contents }) {
         spaceBetween={50}
         slidesPerView={1}
         keyboard={true}
-        onSlideChange={() => console.log("slide change")}
-        onSwiper={(swiper) => console.log(swiper)}
+        /*         onSlideChange={() => console.log("slide change")}
+        onSwiper={(swiper) => console.log(swiper)} */
       >
         {allSections}
       </Swiper>
