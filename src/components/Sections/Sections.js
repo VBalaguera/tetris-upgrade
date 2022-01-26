@@ -79,18 +79,8 @@ export default function Sections({ contents }) {
                 </div>
               </div>
               <div className="section-right__bottom">
-                <p className="section-right__bottom__subtitle">subtitle</p>
                 <div className="section-right__bottom__text">
-                  <p>text</p>
-
-                  <li>
-                    Tetromino/Tetrominoes designs made in Adobe Illustrator.
-                  </li>
-                  <li>
-                    <a href="https://tetris.com/" target="#">
-                      Tetris.com
-                    </a>
-                  </li>
+                  <li>BBC's Tetris - From Russia with Love</li>
                   <li>
                     Electronika 60's first Tetris build screenshot from{" "}
                     <a

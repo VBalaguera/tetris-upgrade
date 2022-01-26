@@ -10,7 +10,7 @@
   {
     "title": "The Creator",
     "subtitle": "Alexey Leonidovich Pajitnov",
-    "text": "Born in Moscow in 1955, Pajitnov.\n\n A long-time fan of puzzles and mathematics, his creation was conceived in the Soviet Academy of Sciences. First: a black and green version for the Elektronika 60. Then, Pajitnov requested an adaptation to the IBM PC. After being copied and distributed among the few people with computers in the URSS, it was licensed by Mirrorsoft.",
+    "text": "Born in Moscow in 1955, Pajitnov showed early on an affinity and love for puzzles and mathematics. His creation was conceived in the Soviet Academy of Sciences. First: a black and green version for the Elektronika 60. Then, Pajitnov requested an adaptation to the IBM PC. After being copied and distributed among the few people with computers in the URSS, it was licensed by Mirrorsoft in a .",
     "img": "https://i.ibb.co/8zzBjPS/tetris-creator.jpg",
     "imgcaption": "Pajitnov visiting Bilbao, (Spain)",
     "tetromino": "https://svgur.com/i/dgi.svg"
@@ -18,7 +18,7 @@
   {
     "title": "Journey to the West",
     "subtitle": "How this game reached us.",
-    "text": "More and more Western and Japanese developers started investing in adapting and distributing more versions of Tetris. Even during the era of Gorbachev's perestroika, commercializing Soviet products internationally was an endeavor as bureaucratic as any other imaginable ask in the USSR. Elorg, the former Soviet Union's central organism for import and exports of computer software, seized control of the property. From now on, it interveined in all business deals and retained a large part of all versions' revenue.",
+    "text": "More and more Western and Japanese developers started investing in adapting and distributing more versions of Tetris. Even during the era of Gorbachev's perestroika, commercializing Soviet products internationally was an endeavor as bureaucratic as any other imaginable ask in the USSR.\n\nElorg, the former Soviet Union's central organism for import and exports of computer software, seized control of the property. It tightly supervised every business deal and retained a large part of all versions' revenue. Atari would acquire the rights of Tetris for",
     "img": "https://i.ibb.co/mFJ88pN/tetris-arcade.jpg",
     "imgcaption": "Atari Games' 1988 arcade cabinet version",
     "tetromino": "https://svgur.com/i/dha.svg"
@@ -26,22 +26,22 @@
   {
     "title": "Japan rises",
     "subtitle": "How it reached your pocket, in more than one way",
-    "text": "After a hugely competetive set of negociations 1989 would represent the year Tetris reached millions of households around the world.\n\nDuring this year Nintendo published versions for its NES and Gameboy consoles, which became a huge commercial success: both versions combined sold more than 43 million units worldwide.",
+    "text": "Nintendo cleverly acquired the rights for all console versions. Atari, its bitter rival, started development for its own console version. After a legal dispute between both companies, Nintendo legally retained the exclusivity of the Tetris license. Atari withdrew its version (developed by its subsidiary Tengen) from the market. A Sega Genesis version was cancelled. A colateral victim of this industry changing legal clash. ",
     "img": "https://i.ibb.co/ZmCNFmc/tetris-nes-cover.jpg",
     "imgcaption": "1989's Nintendo version for the NES",
     "tetromino": "https://svgur.com/i/di8.svg"
   },
   {
-    "title": "miscellaneous information",
-    "subtitle": "subtitle",
-    "text": "about tetris effect and other information\n\noccurs when people devote so much time and attention to an activity that it begins to pattern their thoughts, mental images, and dreams.",
+    "title": "A world-wide phenomenon",
+    "subtitle": "The war is over",
+    "text": "1989 would represent the year Tetris reached millions of households around the world. Dominating the console market, Nintendo published versions for its NES and Gameboy consoles, which became a huge commercial success: both versions combined sold more than 43 million units worldwide.\n\nAfter the disolution of the Soviet Union, Pajitnov and Henk Rogers founded The Tetris Company, which supervises and licenses all modern Tetris versions. Pajitnov finally saw huge revenue benefits for his creation.",
     "img": "https://i.ibb.co/Csdf3bh/tetris-effect-study.png",
     "imgcaption": "Tetris Dreams, by Kristin Leutwyler",
     "tetromino": "https://svgur.com/i/di9.svg"
   },
   {
-    "title": "Still here.",
-    "subtitle": "subtitle",
+    "title": "Still here",
+    "subtitle": "",
     "text": "The game is available on over 65 platforms, setting a Guinness world record for the most ported video game title.",
     "img": "https://i.ibb.co/fxGBBj6/tetris-effect.jpg",
     "imgcaption": "2018's Tetris Effect. Produced by Tetsuya Mizuguchi. Developed by Monstars and Resonair.",
