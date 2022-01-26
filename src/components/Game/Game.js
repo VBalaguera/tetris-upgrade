@@ -10,6 +10,10 @@ export default function Game() {
           <h3>
             Score:<span id="score">0</span>. Note, this is an unfinished build
           </h3>
+          <h5>
+            Basic controls are linked to specific keystroks on desktop. Touch
+            controls are also available on mobile.
+          </h5>
         </div>
 
         <div className="game_start">
