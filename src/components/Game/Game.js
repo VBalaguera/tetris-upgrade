@@ -1,15 +1,15 @@
-import React from "react";
-import "./Game.css";
+import React from 'react'
+import './Game.css'
 
 export default function Game() {
   return (
     <div>
-      <section className="game" id="game">
-        <div className="section9-score-difficulty">
+      <section className='game' id='game'>
+        <div className='section9-score-difficulty'>
           <h1>Now, play</h1>
           <h3>
             Score:
-            <span className="score" id="score">
+            <span className='score' id='score'>
               0
             </span>
             .
@@ -20,17 +20,17 @@ export default function Game() {
           </h5>
         </div>
 
-        <div className="game_start">
-          <button id="start-button">Easy</button>
-          <button id="normal">Normal</button>
-          <button id="hard">Hard</button>
-          <button id="hardest">Hardest</button>
-          <button id="extreme">Extreme</button>
-          <button id="restart">Restart: R</button>
+        <div className='game_start'>
+          <button id='start-button'>Easy</button>
+          <button id='normal'>Normal</button>
+          <button id='hard'>Hard</button>
+          <button id='hardest'>Hardest</button>
+          <button id='extreme'>Extreme</button>
+          <button id='restart'>Restart: R</button>
         </div>
 
-        <div className="container">
-          <div className="grid">
+        <div className='container'>
+          <div className='grid'>
             <div></div>
             <div></div>
             <div></div>
@@ -231,19 +231,19 @@ export default function Game() {
             <div></div>
             <div></div>
             <div></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
-            <div className="taken"></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
+            <div className='taken bottom'></div>
           </div>
 
-          <div className="mini-grid">
+          <div className='mini-grid'>
             <div></div>
             <div></div>
             <div></div>
@@ -263,21 +263,21 @@ export default function Game() {
           </div>
         </div>
 
-        <div className="controls">
-          <div className="mobile-controls">
-            <div className="mobile-controls-left-up">
-              <button id="mobile-rotation">Rotate: W</button>
+        <div className='controls'>
+          <div className='mobile-controls'>
+            <div className='mobile-controls-left-up'>
+              <button id='mobile-rotation'>Rotate: W</button>
             </div>
-            <div className="mobile-controls-left-down">
-              <button id="mobile-left">Left: A</button>
-              <button id="mobile-right">Right: D</button>
+            <div className='mobile-controls-left-down'>
+              <button id='mobile-left'>Left: A</button>
+              <button id='mobile-right'>Right: D</button>
             </div>
-            <div className="mobile-controls-up-right">
-              <button id="mobile-down">Down: S</button>
+            <div className='mobile-controls-up-right'>
+              <button id='mobile-down'>Down: S</button>
             </div>
           </div>
         </div>
       </section>
     </div>
-  );
+  )
 }

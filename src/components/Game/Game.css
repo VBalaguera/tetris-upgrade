@@ -9,6 +9,10 @@
   color: #00ff66;
 }
 
+.bottom {
+  border-top: 1px solid #00ff66;
+}
+
 .game h1 {
   margin: 10px;
   font-size: calc(1vmin + 2vmax);
@@ -115,7 +119,8 @@
 }
 
 .tetromino {
-  background-color: blue; /*TEMPORARY*/
+  background-color: blue;
+  /*TEMPORARY*/
 }
 
 .mini-grid {
@@ -158,6 +163,7 @@
     margin: 0;
     padding: 0;
   }
+
   .mobile-controls button {
     height: 2rem;
     width: 5rem;

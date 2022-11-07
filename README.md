@@ -2,7 +2,11 @@
 
 ## an unapologetic Tetris project made out of love, and with React
 
-This project was jumpstarted with this [original tutorial](https://www.youtube.com/watch?v=rAUn1Lom6dw&ab_channel=freeCodeCamp.org).
+```sh
+npm install && cd tetris && npm run start
+```
+
+This project was inspired by this [original tutorial](https://www.youtube.com/watch?v=rAUn1Lom6dw&ab_channel=freeCodeCamp.org).
 
 The objective was to implement as many useful functions as possible. Some of them are pretty obvious (like the amount of new difficulty levels), from subtle necessitites like recreating absent tetrominoes.
 
