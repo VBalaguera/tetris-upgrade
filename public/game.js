@@ -37,7 +37,6 @@ document.addEventListener('DOMContentLoaded', () => {
     'rgb(153, 27, 30)', //991B1E T
     'rgb(100, 34, 101)', //642265 O
     'rgb(0, 90, 157)', //005A9D I
-
     'rgb(179, 90, 39)', //B35A27
   ]
 
@@ -71,7 +70,6 @@ document.addEventListener('DOMContentLoaded', () => {
     [width + 1, width * 2 + 1, width * 2 + 2, width * 2 + 3],
   ]
 
-  //  TODO: revisit this
   const jTetromino = [
     [1, width + 2, width * 2 + 2, 2], // correct
     [3, width + 3, width + 2, width + 1], // correct
@@ -155,6 +153,7 @@ document.addEventListener('DOMContentLoaded', () => {
     freeze()
   }
 
+  // touch controls for moving down
   mobileDownBtn.addEventListener('click', moveDown)
 
   //freeze function
@@ -196,6 +195,7 @@ document.addEventListener('DOMContentLoaded', () => {
     draw()
   }
 
+  // touch controls for moving to the left
   mobileLeftBtn.addEventListener('click', () => {
     undraw()
     const isAtLeftEdge = current.some(
@@ -229,6 +229,7 @@ document.addEventListener('DOMContentLoaded', () => {
     draw()
   }
 
+  // touch controls for moving to the right
   mobileRightBtn.addEventListener('click', () => {
     undraw()
     const isAtRightEdge = current.some(
@@ -284,6 +285,7 @@ document.addEventListener('DOMContentLoaded', () => {
     draw()
   }
 
+  // touch controls for rotation
   mobileRotationBtn.addEventListener('click', function () {
     rotate()
   })
@@ -319,7 +321,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
 
-  //add functionality to the button;
+  // pick easy difficulty
   startBtn.addEventListener('click', () => {
     if (timerId) {
       clearInterval(timerId)
@@ -333,6 +335,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
+  // pick normal difficulty
   normalBtn.addEventListener('click', () => {
     if (timerId) {
       clearInterval(timerId)
@@ -346,6 +349,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
+  // pick hard difficulty
   hardBtn.addEventListener('click', () => {
     if (timerId) {
       clearInterval(timerId)
@@ -359,6 +363,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
+  // pick hardest difficulty
   hardestBtn.addEventListener('click', () => {
     if (timerId) {
       clearInterval(timerId)
@@ -372,6 +377,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   })
 
+  // pick extreme difficulty
   extremeBtn.addEventListener('click', () => {
     if (timerId) {
       clearInterval(timerId)

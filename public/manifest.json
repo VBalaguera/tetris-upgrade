@@ -1,6 +1,7 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Tetris",
+  "name": "A Tetris project made in javascript",
+  "author": "Víctor Balaguera",
   "icons": [
     {
       "src": "favicon.ico",
